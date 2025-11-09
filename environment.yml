@@ -1,0 +1,19 @@
+name: deepslice-3.9
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pillow
+  - matplotlib
+  - scikit-image
+  - tifffile
+  - opencv
+  - pandas
+  - jupyter
+  - ipykernel
+  - pip:
+      - tensorflow==2.15.0
+      - DeepSlice
